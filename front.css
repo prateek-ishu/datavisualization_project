@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.9;
+    font-style: italic;
+    
+    }
+    .logo1 img{
+        height: 100px;
+        width: 120px;
+        margin-top: 20px;
+        margin:  500px left;
+        display: block;
+        
+        padding: 0px;;
+    }
+    #services .box img{
+
+        height: 520px;
+        width: 1000px;
+        margin: auto;
+        display: block;
+        border: 2px solid white;
+        padding: 0px;
+        border-radius: 20px;
+        opacity: 1.2;
+
+    }
+    
+    #services .box h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 28px;
+        margin: auto;
+        justify-content: center;
+        padding: 15px;
+        font-style: italic;
+        color: rgb(41, 180, 53);
+
+    }
+
+
+
+p{
+    display: flex;
+
+    margin: auto;
+    width: 1200px;
+    align-content: center;
+    padding: 20px;
+    
+    font-size: 20px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+    #navbar{
+    background-color: white;
+    border: 2px solid blue;
+    margin: auto;
+    position: absolute center;
+    width: 420px;
+    display: inline-block
+    
+    border 2px;
+    border-radius: 40px;
+    margin-top: 50px;;
+    
+
+}
+#navbar ul{
+    display: flex;
+    margin: auto;
+    
+
+}
+#navbar ul li{
+    
+    list-style: none;
+    color: royalblue;
+    padding: 2px;
+    margin: 3px;
+    text-decoration: none;
+
+}
+#navbar .btn{
+
+    border: 2px solid white;
+    padding-left: 4px;
+    padding-right: 6px;
+    margin: 5px;
+    font-size: 18px;
+    background-color: white;
+}
+#navbar .btn a{
+    
+    padding: 20px;;
+}
+#navbar .btn a:hover{
+    cursor: pointer;
+    color:blue;
+}
+
+
+
+
+
+body h1{
+    display: flex;
+
+    margin: auto;
+    width: 420px;
+    align-content: center;
+    
+    
+    font-size: 50px;
+    color: tomato;
+  
+}
+body img{
+    width: 40px;
+    height: 40px;
+}
